@@ -10,6 +10,12 @@ Share all the questions related with SLAM
 [详细介绍点这里](https://mp.weixin.qq.com/s?__biz=MzIxOTczOTM4NA==&mid=2247485921&idx=1&sn=dfccfc8772d4905c744cab53c3c4c7b3&chksm=97d7ec76a0a065608fda155f6de835c534fa2b012b6659d317c279181e040480e6b883867d14&scene=21#wechat_redirect)
 
 简单的说：齐次坐标就是在原有坐标上加上一个维度：
+简单的说：齐次坐标就是在原有坐标上加上一个维度：
+$$
+\begin{array} { r l } { ( x , y ) } & { \rightarrow ( x , y , 1 ) } \\ { ( x , y , z ) } & { \rightarrow ( x , y , z , 1 ) } \end{array}
+$$
+
+## 使用齐次坐标有什么优势？
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/rqpicxXx8cNle3AGYGXwhKEKPYFFict08wCH8qOTKicZwJyEoDBvgpIERVVSIPyKVGibLWswEfuAN5y9nXqGwa3PvA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
